@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f5f8;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    
+}
+ul li{
+   display: inline-flex;
+   margin: 10px;
+   margin-top: 20px;
+   font-size: larger;
+   margin-left: 62px;
+   
+}
+ul a{
+    text-align: center;
+    text-decoration: none;
+    color: #f3f3f3;
+}
+ul a:hover{
+       color: #fa0081;
+}
+.shake{
+    animation : shake .7s ease infinite alternate ;
+}
+@keyframes shake{
+    from {transform: translate(4px, -4px) rotate(-9deg);}
+    to   { transform:translate (1px,-1px )rotate (-10deg); }
+   
+}
+footer:hover{
+    color: #fa0081;
+}
+footer{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    font-weight: bold;
+    color: #f3f3f3;
+    cursor: pointer;
+    margin-left: 35px;
+}
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    z-index: -100;
+   
+}
+.text-center{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 60vh;
+    color: #fafafa;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+/*Project 1 CSS*/
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+}
+.input-1{
+    display: grid;
+    grid-column: span 4;
+    text-align: end;
+    font-size: 30px;
+    border: none;
+    box-shadow: 6px 5px 5px rgb(112, 111, 111);
+    font-weight: bold;
+    border-radius: 4px;
+}
+.sub-container{
+    display: grid;
+    grid-template-columns: repeat(4,66px);
+    
+
+}
+button{
+    height: 45px;
+    text-shadow: 5px 5px 5px black;
+    font-weight: bold;
+     border: none;
+     margin: 1px;
+     box-shadow: 6px 5px 5px rgb(112, 111, 111);
+}
+button:hover{
+    box-shadow: inset  8px 8px 8px rgba(0, 0, 0, .5)
+}
+.equal{
+    width: 132px;
+    border: 5px 6px;
+    border-radius:  20px 3px;
+}
+.slide-circle {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: -250px;
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+    
+}
+h3{
+    margin-top: 60px;
+    margin-left: 6px;
+    color: #000;
+}
+/*Project 2 CSS*/
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container-2 div{
+    display: inline-block;
+    margin: 5px;
+}
+ .container-2 span{
+    background-color: #a1a1a1;
+    width: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border-radius: 5px;
+    opacity: .8;
+    
+}
+.time-text{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: bolder ;
+    text-shadow: 5px 5px 5px;
+}
+#Hours,#Minutes,#Seconds{
+    font-weight: bolder ;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px;
+}
+.side-circle{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+   margin-left: auto;
+}
+/*Project-4*/
+.container-4{
+   margin: 0;
+   padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(173, 52, 52);
+    border-radius: 800px;
+    text-align: center;
+}
+h5{
+    font-size: xx-large;
+}
+.bigger{
+    font-size: x-large !important;
+}
+textarea{
+    width: 300px;
+}
+.total-character b{
+    color: #1cf200;
+    font-size: larger;
+}
+.Remaining-character{
+    color: #ff0000;
+    font-size: larger;
+}
+/*Project 5*/
+.text-side {
+    display: flex;
+    text-decoration: none;
+    color: #fdfdfd;
+    font-size: x-large;
+}
+ol li{
+    display: inline-flex;
+    
+}
+

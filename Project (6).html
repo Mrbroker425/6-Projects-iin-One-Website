@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="8 Project">
+    <title>Projects 6: Generating box With A for-loop</title>
+    <link rel="stylesheet" href="6 Projects in One Website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f9fc;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            background-color: #333;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #f7f9fc;
+            padding: 5px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        .container-7 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 60px); /* Considering height of navbar */
+            overflow-y: auto;
+        }
+
+        .color-container {
+            display: inline-flex;
+            width: 200px;
+            height: 50px;
+            background-color: #f30404;
+            margin: 10px;
+            border-radius: 5px;
+            animation-name: shake;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translateX(0px);
+            }
+
+            25% {
+                transform: translateX(170px);
+            }
+
+            50% {
+                transform: translateX(50px);
+            }
+
+            75% {
+                transform: translateX(-10px);
+            }
+
+            100% {
+                transform: translateX(0px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container-7">
+        <div class="color-container">#ea0303</div>
+        <div class="color-container">#ea0303</div>
+        <div class="color-container">#ea0303</div>
+        <div class="color-container">#ea0303</div>
+        <div class="color-container">#ea0303</div>
+    </div>
+
+    <script>
+        const containerEl = document.querySelector(".container-7");
+        for (let index = 0; index < 30; index++) {
+            const newDiv = document.createElement("div");
+            newDiv.classList.add("color-container");
+            containerEl.appendChild(newDiv);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="8 Project">
+        <title>Projects 1:- Calculator</title>
+    
+        <link rel="stylesheet" href="6 Projects in One Website.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    body {
+        background: linear-gradient(90deg, #c62929 0%, #4605d3 70%,
+        #f501a7 100%);
+    }
+</style>
+    </head>
+        <body>
+            <main>
+                <h1 class="shake">Project 1 : Calculator</h1>
+            </main>
+            <div class="container">
+                <div class="sub-container">
+                <input class="input-1" type="text" id="input" placeholder="0" autocomplete="off">
+                <!-- Basic Arithmetic -->
+<button class="button" id="add" onclick="Calculate('+')">+</button>
+<button class="button" id="subtract" onclick="Calculate('-')">-</button>
+<button class="button" id="multiply" onclick="Calculate('*')">×</button>
+<button class="button" id="divide" onclick="Calculate('/')">/</button>
+
+<!-- Advanced Arithmetic & Functions -->
+<button class="button" id="square">x²</button>
+<button class="button" id="sqrt">√</button>
+<button class="button" id="cube">x³</button>
+<button class="button" id="cbrt">∛</button>
+<button class="button" id="inverse">1/x</button>
+
+<!-- Trigonometry -->
+<button class="button" id="sin">sin</button>
+<button class="button" id="cos">cos</button>
+<button class="button" id="tan">tan</button>
+<button class="button" id="asin">asin</button>
+<button class="button" id="acos">acos</button>
+<button class="button" id="atan">atan</button>
+
+<!-- Logarithms and Exponents -->
+<button class="button" id="log" onclick="Del()">log</button>
+<button class="button" id="ln">ln</button>
+<button class="button" id="exp">e^x</button>
+
+<!-- Constants -->
+<button class="button" id="pi">π</button>
+<button class="button" id="e">e</button>
+
+<!-- Miscellaneous -->
+<button class="button" id="parenthesisOpen">(</button>
+<button class="button" id="parenthesisClose">)</button>
+<button class="button" id="dot" onclick="Calculate('.')">.</button>
+<button class="button" id="clear" onclick="Clear()">C</button>
+
+<!-- Numbers -->
+<button class="button" id="num0" onclick="Calculate(0)">0</button>
+<button class="button" id="num1" onclick="Calculate(1)">1</button>
+<button class="button" id="num2" onclick="Calculate(2)">2</button>
+<button class="button" id="num3" onclick="Calculate(3)">3</button>
+<button class="button" id="num4" onclick="Calculate(4)">4</button>
+<button class="button" id="num5" onclick="Calculate(5)">5</button>
+<button class="button" id="num6" onclick="Calculate(6)">6</button>
+<button class="button" id="num7" onclick="Calculate(7)">7</button>
+<button class="button" id="num8" onclick="Calculate(8)">8</button>
+<button class="button" id="num9" onclick="Calculate(0)">9</button>
+<button class="equal" id="equal" onclick="check()">=</button>
+</div>
+            </div>
+             <section>
+                <a href="Project (2).html">
+              <div class="slide-circle">
+                <h3>PROJECT 2 >>>></h3>
+              </div>
+            </a>
+             </section>
+            <script src="6 Projects in One Website.js"></script>
+        </body>
+</html>
