@@ -5,7 +5,7 @@ This documentation covers the journey of building six diverse projects incorpora
 
 
 
-Hey LinkedIn family! I'm thrilled to announce that I've completed an exhilarating challenge - building 6 diverse projects within a single website! This journey was full of learning, iterations, and pushing boundaries.
+Hey I'm thrilled to announce that I've completed an exhilarating challenge - building 6 diverse projects within a single website! This journey was full of learning, iterations, and pushing boundaries.
 
 
 
